@@ -8,60 +8,62 @@
     <title>Odin Sign-up Form Project</title>
 </head>
 <body>
-    <div class="header">
-        <div class="header-title">
-            <img src="./Assets/odin-lined.png">
-            <span>ODIN</span>
+    <div class="flex-container">
+        <div class="header">
+            <div class="header__title">
+                <img src="./Assets/odin-lined.png" style="width:98px; height:auto;">
+                <span>ODIN</span>
+            </div>
+            <div class="header__credits">
+                Photo by <a href="https://unsplash.com/@lightscape">Lightscape</a> on <a href="https://unsplash.com/">Unsplash</a>
+            </div>
         </div>
-        <div class="header-credits">
-            Photo by <a href="https://unsplash.com/@lightscape">Lightscape</a> on <a href="https://unsplash.com/">Unsplash</a>
-        </div>
-    </div>
-    <div class="form-container">
-        <p class="form-container__blurb">
-            This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.
-        </p>
-        <p class="form-container__blurb">
-            You <em>know</em> you want to.
-        </p>
-        <form action="" method="get" class="form">
-            <div class="form__content">
-                <h1 class="form__header">Let's do this!</h1>
-                <div class="form__controls">
-                    <div class="form__control">
-                        <label for="firstname" class="form__label">First Name</label>
-                        <input id="firstname" class="form__input" name="firstname" type="text" required>
-                    </div>
-                    
-                    <div class="form__control">
-                        <label for="lastname" class="form__label">Last Name</label>
-                        <input id="lastname" class="form__input" name="lastname" type="text" required>
-                    </div>
-                    
-                    <div class="form__control">
-                        <label for="email" class="form__label">Email</label>
-                        <input id="email" class="form__input" name="email" type="email" required>
-                    </div>
+        <div class="form-container">
+            <p class="form-container__blurb">
+                This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.
+            </p>
+            <p class="form-container__blurb">
+                You <em>know</em> you want to.
+            </p>
+            <form action="" method="get" class="form">
+                <div class="form__content">
+                    <h1 class="form__header">Let's do this!</h1>
+                    <div class="form__controls">
+                        <div class="form__control">
+                            <label for="firstname" class="form__label">First Name</label>
+                            <input id="firstname" class="form__input" name="firstname" type="text" required>
+                        </div>
+                        
+                        <div class="form__control">
+                            <label for="lastname" class="form__label">Last Name</label>
+                            <input id="lastname" class="form__input" name="lastname" type="text" required>
+                        </div>
+                        
+                        <div class="form__control">
+                            <label for="email" class="form__label">Email</label>
+                            <input id="email" class="form__input" name="email" type="email" required>
+                        </div>
 
-                    <div class="form__control">
-                        <label for="phoneNum" class="form__label">Phone Number</label>
-                        <input id="phoneNum" class="form__input" name="phoneNum" type="tel" required>
-                    </div>
-
-                    <div class="form__control">
-                        <label for="password" class="form__label">Password</label>
-                        <input id="password" class="form__input" name="password" type="password" required>
-                    </div>
-
-                    <div class="form__control">
-                        <label for="confirmPass" class="form__label">Confirm Password</label>
-                        <input id="confirmPass" class="form__input" name="confirmPass" type="password" required>
+                        <div class="form__control">
+                            <label for="phoneNum" class="form__label">Phone Number</label>
+                            <input id="phoneNum" class="form__input" name="phoneNum" type="tel" required>
+                        </div>
+                        
+                        <div class="form__control">
+                            <label for="password" class="form__label">Password</label>
+                            <input id="password" class="form__input" name="password" type="password" required>
+                        </div>
+                        
+                        <div class="form__control">
+                            <label for="confirmPass" class="form__label">Confirm Password</label>
+                            <input id="confirmPass" class="form__input" name="confirmPass" type="password" required>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <button class="form__submit" type="submit">Create Account</button>
-        </form>
-        <p>Already have an account? <a href="./index.html">Log In</a></p>
+                <button class="form__submit" type="submit">Create Account</button>
+            </form>
+            <p>Already have an account? <a href="./index.html">Log In</a></p>
+        </div>
     </div>
 </body>
 </html>
