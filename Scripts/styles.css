@@ -23,6 +23,37 @@ body{
     position: relative;
 }
 
+.header__title{
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 0 1em 0;
+}
+
+.header__title span{
+    color: white;
+    font-family: Norse-Bold;
+    font-size: 120px;
+}
+
+.header__credits{
+    font-size: 11px;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    opacity: 0.5;
+}
+
+.header__credits a{
+    color:white;
+}
+
 .form-container{
     height: 100vh;
     display: flex;
