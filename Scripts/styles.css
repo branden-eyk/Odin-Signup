@@ -81,7 +81,7 @@ body{
 
 .form__header{
     font-size: 1.25rem;
-    margin: 0 0 40px 40px;
+    margin: 0 0 24px 40px;
 }
 
 .form__content{
@@ -101,7 +101,7 @@ body{
     display: flex;
     flex-direction: column;
     flex-basis: 20vw;
-    padding: 0 32px 16px 0;
+    padding: 16px 32px 0 0;
 }
 
 .form__control label{
@@ -136,4 +136,15 @@ body{
     text-decoration: none;
     font-weight: bold;
     font-size: 0.95rem;
+}
+
+.form__mismatch{
+    margin: 0 0 0 40px;
+    font-size: 0.70rem;
+    color: red;
+}
+
+.form__input--error{
+    border-radius: 3px;
+    border-color: red;
 }
