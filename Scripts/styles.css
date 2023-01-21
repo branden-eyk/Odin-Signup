@@ -3,6 +3,10 @@
     src: url("../Assets/Norse-Bold.otf") format("opentype");
 }
 
+html{
+    font-size: 100%;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -37,11 +41,11 @@ body{
 .header__title span{
     color: white;
     font-family: Norse-Bold;
-    font-size: 120px;
+    font-size: 7.5rem;
 }
 
 .header__credits{
-    font-size: 11px;
+    font-size: 0.75rem;
     font-family: Arial, Helvetica, sans-serif;
     position: absolute;
     bottom: 20px;
@@ -61,12 +65,12 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .form-container__blurb{
-    padding: 0 0 0 2em;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    padding: 0 0 0 40px;
+    font-size: 1.25rem;
     font-weight: 600;
     width: 36vw;
 }
@@ -76,9 +80,8 @@ body{
 }
 
 .form__header{
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0 0 32px 32px;
+    font-size: 1.25rem;
+    margin: 0 0 40px 40px;
 }
 
 .form__content{
@@ -90,7 +93,8 @@ body{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 0 0 0 32px;
+    margin: 0 0 0 40px;
+    font-size: 0.85rem;
 }
 
 .form__control{
@@ -98,4 +102,38 @@ body{
     flex-direction: column;
     flex-basis: 20vw;
     padding: 0 32px 16px 0;
+}
+
+.form__control label{
+    color: rgb(86, 86, 86);
+    font-size: 0.75rem;
+    margin-bottom: 2px;
+}
+
+.form__control input:focus{
+    border-color: rgb(106, 65, 232);
+    outline: none;
+    border-radius: 3px;
+    box-shadow: 1px 2px 5px 3px rgb(216, 216, 216);
+}
+
+.form__submit{
+    margin: 40px 0 0 40px;
+    color: white;
+    background-color: rgb(106, 65, 232);
+    border: none;
+    padding: 10px 40px 10px 40px;
+    border-radius: 10px;
+    font-size: 0.95rem;
+}
+
+.login{
+    margin-left: 40px;
+}
+
+.login__link{
+    color: rgb(106, 65, 232);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.95rem;
 }
