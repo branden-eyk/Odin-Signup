@@ -117,6 +117,11 @@ body{
     box-shadow: 1px 2px 5px 3px rgb(216, 216, 216);
 }
 
+.form__input--error{
+    border-color: red;
+    border-radius: 3px;
+}
+
 .form__submit{
     margin: 40px 0 0 40px;
     color: white;
