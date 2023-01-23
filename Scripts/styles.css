@@ -127,6 +127,10 @@ body{
     font-size: 0.95rem;
 }
 
+.form__submit:hover{
+    cursor: pointer;
+}
+
 .login{
     margin-left: 40px;
 }
